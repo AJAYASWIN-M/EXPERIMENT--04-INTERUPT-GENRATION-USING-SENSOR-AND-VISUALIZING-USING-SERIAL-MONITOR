@@ -111,7 +111,7 @@ The diagram below shows how the GPIO pins are connected to the 16 interrupt line
   
 
 ## STM 32 CUBE PROGRAM :
-```c++
+```C
 
 #include "main.h"
 #include"stdbool.h"
@@ -228,13 +228,21 @@ void assert_failed(uint8_t *file, uint32_t line)
 {
 }
 #endif
+
 ```
 
 
+
 ## Output screen shots of serial port utility   :
- ![iot](iot4.png)
- ![iot](iot4a.png)
+![280454258-333f6868-b1c6-4a17-9c38-ae102d1654f3](https://github.com/AJAYASWIN-M/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/118679692/ed3ea1cc-f26f-4ee8-b9a0-aa4de88de8c6)
+
+![280454273-4fb02b53-52e4-4320-9c56-fd9d0a665d19](https://github.com/AJAYASWIN-M/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/118679692/b0431a59-d205-40f9-be76-d380f679388b)
+
+
+ 
  ## Circuit board :
- ![iot](iot4b.png)
+ 
+![280734552-591da10d-224b-42d7-9e0e-c7c173bc4dc1](https://github.com/AJAYASWIN-M/EXPERIMENT--04-INTERUPT-GENRATION-USING-SENSOR-AND-VISUALIZING-USING-SERIAL-MONITOR/assets/118679692/c375fcce-706a-4e1e-90a9-7d5b79d3210c)
+
 ## Result :
 Interfacing a  IR SENSOR and interrupt is generated using external interrupt mode , visualized on serial port 
